@@ -1,6 +1,11 @@
-,Simple Random,Stratified,Systematic,Cluster,Bootstrap
-Logistic Regression,91.83,92.16,91.83,91.5,92.16
-Decision Tree,97.39,94.12,94.12,95.75,93.14
-Random Forest,99.35,99.02,98.37,99.02,97.71
-SVM,94.44,94.77,95.1,94.77,95.1
-KNN,90.85,87.91,88.89,90.85,89.22
+"--- Accuracy Results (%) ---\n",
+      "                     Simple Random  Stratified  Systematic  Cluster  Bootstrap\n",
+      "Logistic Regression          91.83       92.16       91.83    92.48      92.16\n",
+      "Decision Tree                97.39       94.12       94.12    96.08      93.14\n",
+      "Random Forest                99.35       99.02       98.37    98.37      97.71\n",
+      "SVM                          94.44       94.77       95.10    95.42      95.10\n",
+      "KNN                          90.85       87.91       88.89    92.16      89.22\n",
+      "\n",
+      "Highest Accuracy: 99.35%\n",
+      "Best Model: Random Forest\n",
+      "Best Sampling Technique: Simple Random\n"
